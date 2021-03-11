@@ -2,12 +2,10 @@ This is a coding project that was assigned to compare sales between multiple pro
 ```python:
 import pandas as pd
 import numpy as np 
-import matplotlib.pyplot as plt```
+import matplotlib.pyplot as plt
 
-```python:
-sales = pd.read_csv("company_sales_data.csv")```
+sales = pd.read_csv("company_sales_data.csv")
 
-```python: 
 monthList = df['month_number'].tolist()
 facecreamdata = df['facecream'].tolist()
 facewashdata = df['facewash'].tolist()
@@ -28,4 +26,6 @@ plt.ylabel('Sales units in number')
 plt.legend(loc='upper left')
 plt.xticks(monthList)
 plt.yticks([1000, 2000, 4000, 6000, 8000, 10000, 12000, 15000, 18000])
-plt.title('Sales data')```
+plt.title('Sales data') ```
+
+code 
