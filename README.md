@@ -26,6 +26,11 @@ plt.ylabel('Sales units in number')
 plt.legend(loc='upper left')
 plt.xticks(monthList)
 plt.yticks([1000, 2000, 4000, 6000, 8000, 10000, 12000, 15000, 18000])
-plt.title('Sales data') ```
+plt.title('Sales data') 
+```
 
-code 
+![Company sales montly_profits](https://user-images.githubusercontent.com/53583290/110728515-39166a00-81eb-11eb-9632-42a70b32d568.PNG)
+![Company sales montly_profits_2](https://user-images.githubusercontent.com/53583290/110728530-403d7800-81eb-11eb-87ba-ef2f0019e5aa.PNG)
+![Company sales all sales](https://user-images.githubusercontent.com/53583290/110728546-47648600-81eb-11eb-8206-5517df6aad31.PNG)
+![Comapny sales bar graph](https://user-images.githubusercontent.com/53583290/110728562-4df2fd80-81eb-11eb-81b5-86ff15a9bbd8.PNG)
+
