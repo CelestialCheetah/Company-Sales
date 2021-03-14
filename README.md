@@ -7,10 +7,10 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 ```
-This is the crux of the project. Using ```python: Pandas Numpy Matplotlib.pyplot``` 
-Afterwards I loaded in the data using ```python: Pandas``` shown below. The actaul CSV should be in the repository as well.
+This is the crux of the project. Using ```python Pandas Numpy Matplotlib.pyplot``` 
+Afterwards I loaded in the data using ```python Pandas``` shown below. The actaul CSV should be in the repository as well.
 
-```python: sales = pd.read_csv("company_sales_data.csv")```
+```python sales = pd.read_csv("company_sales_data.csv")```
 
 Here is a basic line chart showing the total profits of all items sold per month 
 
@@ -21,7 +21,7 @@ This is the same chart with a slightly different line on the graph that uses poi
 ![Company sales montly_profits_2](https://user-images.githubusercontent.com/53583290/110728530-403d7800-81eb-11eb-87ba-ef2f0019e5aa.PNG)
 
 This is the largest part of the project showing all the sales of the products in the data. Originally I would have prefered to use the data in a way to not use 
-```python:.tolist(0)``` but the assigned called to use it. Along with the graph there is the codeblock I made to make the graph.
+```python.tolist(0)``` but the assigned called to use it. Along with the graph there is the codeblock I made to make the graph.
 
 ![Company sales all sales](https://user-images.githubusercontent.com/53583290/110728546-47648600-81eb-11eb-8206-5517df6aad31.PNG)
 
