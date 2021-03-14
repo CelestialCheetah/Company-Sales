@@ -1,11 +1,21 @@
 # WORK IN PROGRESS
-This is a coding project that was assigned to compare sales between multiple products, and to also visualized the caparisons using different styles of charts.
+This is a coding project that was assigned to compare sales between multiple products, and to also visualized the caparisons using different styles of charts 
+and features within the charts. 
+
 ```python:
 import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
+```
+This is the crux of the project. Using ```python Pandas Numpy Matplotlib.pyplot``` 
+Afterwards I loaded in the data using ```python Pandas``` shown below. The actaul CSV should be in the repository as well.
 
-sales = pd.read_csv("company_sales_data.csv")
+```python sales = pd.read_csv("company_sales_data.csv")```
+
+Here is the first chart showing just the basics of a certain item. 
+
+![Company sales montly_profits](https://user-images.githubusercontent.com/53583290/110728515-39166a00-81eb-11eb-9632-42a70b32d568.PNG)
+
 
 monthList = df['month_number'].tolist()
 facecreamdata = df['facecream'].tolist()
