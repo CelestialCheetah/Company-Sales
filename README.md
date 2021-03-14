@@ -16,7 +16,11 @@ Here is a basic line chart showing the total profits of all items sold per month
 
 ![Company sales montly_profits](https://user-images.githubusercontent.com/53583290/110728515-39166a00-81eb-11eb-9632-42a70b32d568.PNG)
 
+This is the same chart with a slightly different line on the graph that uses points to specify each month to profits.
+
 ![Company sales montly_profits_2](https://user-images.githubusercontent.com/53583290/110728530-403d7800-81eb-11eb-87ba-ef2f0019e5aa.PNG)
+
+
 
 
 monthList = df['month_number'].tolist()
