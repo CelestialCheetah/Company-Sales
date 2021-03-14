@@ -48,7 +48,7 @@ plt.xticks(monthList)
 plt.yticks([1000, 2000, 4000, 6000, 8000, 10000, 12000, 15000, 18000])
 plt.title('Sales data') 
 ```
-And finally this is the final part of the project using a bar chart to show 
+And finally this is the final part of the project using a bar chart to show the difference between facewash sales and facecream data.
 
 ![Comapny sales bar graph](https://user-images.githubusercontent.com/53583290/110728562-4df2fd80-81eb-11eb-81b5-86ff15a9bbd8.PNG)
 
